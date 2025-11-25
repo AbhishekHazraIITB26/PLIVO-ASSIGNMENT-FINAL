@@ -1,0 +1,20 @@
+# Ignore the trained model weights (too big for GitHub)
+out/pytorch_model.bin
+out/config.json
+out/vocab.txt
+out/tokenizer.json
+out/tokenizer_config.json
+out/special_tokens_map.json
+
+# Keep the prediction files (Required for submission)
+!out/dev_pred.json
+!out/stress_pred.json
+
+# Ignore Python cache and environments
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Storeout/model.safetensors
+out/model.safetensors
+out/pytorch_model.bin
